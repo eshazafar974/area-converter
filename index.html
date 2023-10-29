@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARLA TO SQUAREFEET CONVERTER</title>
+</head>
+<body>
+    <h1>MARLA TO SQUAREFEET CONVERTER</h1>
+    <div class="container">
+        <form id="calcArea" onsubmit="calcArea(); return false">
+       <label for="area"> Marla to Square feet Converter:</label>
+       <br>
+       <input type="number" name="area" id="area" value="0">
+       <select name="area_diff" id="area_diff">
+<option value="Marla">&#176;Marla</option>
+<option value="sqFeet">&#176;Square Feet</option>
+        
+       </select>
+       <br>
+       <input type="submit" name="area" id="submit">
+       <br>
+       <span id="result"></span>
+    
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
